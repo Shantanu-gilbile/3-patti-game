@@ -1,0 +1,14 @@
+{
+  "name": "teen-patti-game",
+  "version": "1.0.0",
+  "description": "Multiplayer Teen Patti (3 Patti) Web Game",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node shared/test.js",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "cd server && npm start"
+  }
+}
